@@ -31,7 +31,7 @@ namespace LinqPrac1
             {
                 Console.WriteLine(item);
             }
-
+            output = output2.ToList<int>(); 
         }
     }
 }
